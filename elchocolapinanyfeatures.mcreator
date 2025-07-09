@@ -1,0 +1,55 @@
+{
+  "mod_elements": [
+    {
+      "name": "Caca",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "caca",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/elchocolapinanyfeatures/item/CacaItem.java",
+          "src/main/resources/assets/elchocolapinanyfeatures/models/item/caca.json",
+          "src/main/resources/assets/elchocolapinanyfeatures/items/caca.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.elchocolapinanyfeatures.caca": "Caca"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/elchocolapinanyfeatures/ElchocolapinanyfeaturesMod.java",
+      "src/main/java/net/mcreator/elchocolapinanyfeatures/init/ElchocolapinanyfeaturesModItems.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "elchocolapinanyfeatures",
+    "modName": "ElChoColapIn-anyfeatures",
+    "version": "1.0.0",
+    "author": "MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.4",
+    "modElementsPackage": "net.mcreator.elchocolapinanyfeatures"
+  },
+  "mcreatorVersion": 202500227613
+}
