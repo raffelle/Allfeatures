@@ -18,7 +18,9 @@ import net.minecraft.network.protocol.common.custom.CustomPacketPayload;
 import net.minecraft.network.codec.StreamCodec;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.elchocolapinanyfeatures.init.ElchocolapinanyfeaturesModTabs;
 import net.mcreator.elchocolapinanyfeatures.init.ElchocolapinanyfeaturesModItems;
+import net.mcreator.elchocolapinanyfeatures.init.ElchocolapinanyfeaturesModBlocks;
 
 import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.Map;
@@ -38,7 +40,11 @@ public class ElchocolapinanyfeaturesMod {
 		NeoForge.EVENT_BUS.register(this);
 		modEventBus.addListener(this::registerNetworking);
 
+		ElchocolapinanyfeaturesModBlocks.REGISTRY.register(modEventBus);
+
 		ElchocolapinanyfeaturesModItems.REGISTRY.register(modEventBus);
+
+		ElchocolapinanyfeaturesModTabs.REGISTRY.register(modEventBus);
 
 		// Start of user code block mod init
 		// End of user code block mod init

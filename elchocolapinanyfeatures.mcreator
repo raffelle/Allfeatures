@@ -1,34 +1,43 @@
 {
   "mod_elements": [
     {
-      "name": "Caca",
-      "type": "item",
+      "name": "BlockDeNuage",
+      "type": "block",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "caca",
+      "registry_name": "block_de_nuage",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/elchocolapinanyfeatures/item/CacaItem.java",
-          "src/main/resources/assets/elchocolapinanyfeatures/models/item/caca.json",
-          "src/main/resources/assets/elchocolapinanyfeatures/items/caca.json"
+          "src/main/resources/data/elchocolapinanyfeatures/loot_table/blocks/block_de_nuage.json",
+          "src/main/resources/assets/elchocolapinanyfeatures/models/item/block_de_nuage.json",
+          "src/main/resources/assets/elchocolapinanyfeatures/blockstates/block_de_nuage.json",
+          "src/main/resources/assets/elchocolapinanyfeatures/models/block/block_de_nuage.json",
+          "src/main/resources/assets/elchocolapinanyfeatures/items/block_de_nuage.json",
+          "src/main/java/net/mcreator/elchocolapinanyfeatures/block/BlockDeNuageBlock.java"
         ]
       }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
-  "tag_elements": {},
+  "tag_elements": {
+    "BLOCKS:minecraft:mineable/shovel": [
+      "~CUSTOM:BlockDeNuage"
+    ]
+  },
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "item.elchocolapinanyfeatures.caca": "Caca"
+      "item.elchocolapinanyfeatures.block_de_nuage": "Block De Nuage"
     }
   },
   "metadata": {
     "files": [
       "src/main/resources/META-INF/neoforge.mods.toml",
       "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/elchocolapinanyfeatures/init/ElchocolapinanyfeaturesModTabs.java",
       "src/main/java/net/mcreator/elchocolapinanyfeatures/ElchocolapinanyfeaturesMod.java",
+      "src/main/java/net/mcreator/elchocolapinanyfeatures/init/ElchocolapinanyfeaturesModBlocks.java",
       "src/main/java/net/mcreator/elchocolapinanyfeatures/init/ElchocolapinanyfeaturesModItems.java"
     ]
   },
